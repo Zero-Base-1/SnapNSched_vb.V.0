@@ -39,7 +39,7 @@ Partial Class Form1
         'SgnIn_bttn
         '
         Me.SgnIn_bttn.Location = New System.Drawing.Point(429, 181)
-        Me.SgnIn_bttn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SgnIn_bttn.Margin = New System.Windows.Forms.Padding(4)
         Me.SgnIn_bttn.Name = "SgnIn_bttn"
         Me.SgnIn_bttn.Size = New System.Drawing.Size(203, 62)
         Me.SgnIn_bttn.TabIndex = 0
@@ -49,7 +49,7 @@ Partial Class Form1
         'CrtAcc_bttn
         '
         Me.CrtAcc_bttn.Location = New System.Drawing.Point(429, 250)
-        Me.CrtAcc_bttn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CrtAcc_bttn.Margin = New System.Windows.Forms.Padding(4)
         Me.CrtAcc_bttn.Name = "CrtAcc_bttn"
         Me.CrtAcc_bttn.Size = New System.Drawing.Size(203, 62)
         Me.CrtAcc_bttn.TabIndex = 1
@@ -79,7 +79,7 @@ Partial Class Form1
         'Usr_SN_txtbx
         '
         Me.Usr_SN_txtbx.Location = New System.Drawing.Point(461, 181)
-        Me.Usr_SN_txtbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Usr_SN_txtbx.Margin = New System.Windows.Forms.Padding(4)
         Me.Usr_SN_txtbx.Name = "Usr_SN_txtbx"
         Me.Usr_SN_txtbx.Size = New System.Drawing.Size(213, 22)
         Me.Usr_SN_txtbx.TabIndex = 4
@@ -87,7 +87,7 @@ Partial Class Form1
         'Pass_SN_txtbx
         '
         Me.Pass_SN_txtbx.Location = New System.Drawing.Point(460, 222)
-        Me.Pass_SN_txtbx.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Pass_SN_txtbx.Margin = New System.Windows.Forms.Padding(4)
         Me.Pass_SN_txtbx.Name = "Pass_SN_txtbx"
         Me.Pass_SN_txtbx.Size = New System.Drawing.Size(213, 22)
         Me.Pass_SN_txtbx.TabIndex = 5
@@ -95,7 +95,7 @@ Partial Class Form1
         'LogIn_bttn
         '
         Me.LogIn_bttn.Location = New System.Drawing.Point(492, 257)
-        Me.LogIn_bttn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.LogIn_bttn.Margin = New System.Windows.Forms.Padding(4)
         Me.LogIn_bttn.Name = "LogIn_bttn"
         Me.LogIn_bttn.Size = New System.Drawing.Size(151, 33)
         Me.LogIn_bttn.TabIndex = 6
@@ -105,7 +105,7 @@ Partial Class Form1
         'Clt_bttn
         '
         Me.Clt_bttn.Location = New System.Drawing.Point(460, 181)
-        Me.Clt_bttn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Clt_bttn.Margin = New System.Windows.Forms.Padding(4)
         Me.Clt_bttn.Name = "Clt_bttn"
         Me.Clt_bttn.Size = New System.Drawing.Size(151, 33)
         Me.Clt_bttn.TabIndex = 7
@@ -115,7 +115,7 @@ Partial Class Form1
         'Csr_bttn
         '
         Me.Csr_bttn.Location = New System.Drawing.Point(460, 225)
-        Me.Csr_bttn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Csr_bttn.Margin = New System.Windows.Forms.Padding(4)
         Me.Csr_bttn.Name = "Csr_bttn"
         Me.Csr_bttn.Size = New System.Drawing.Size(151, 33)
         Me.Csr_bttn.TabIndex = 8
@@ -125,7 +125,7 @@ Partial Class Form1
         'Adm_bttn
         '
         Me.Adm_bttn.Location = New System.Drawing.Point(460, 266)
-        Me.Adm_bttn.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Adm_bttn.Margin = New System.Windows.Forms.Padding(4)
         Me.Adm_bttn.Name = "Adm_bttn"
         Me.Adm_bttn.Size = New System.Drawing.Size(151, 33)
         Me.Adm_bttn.TabIndex = 9
@@ -144,7 +144,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(860, 429)
+        Me.Button1.Location = New System.Drawing.Point(903, 495)
         Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(151, 33)
@@ -169,7 +169,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Usr_lbl)
         Me.Controls.Add(Me.CrtAcc_bttn)
         Me.Controls.Add(Me.SgnIn_bttn)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login_Form"

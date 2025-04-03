@@ -76,6 +76,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEmployeeForm.Designer.vb">
+      <DependentUpon>AddEmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddEmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Admin_Formvb.Designer.vb">
       <DependentUpon>Admin_Formvb.vb</DependentUpon>
     </Compile>
@@ -92,6 +98,12 @@
       <DependentUpon>Client_Formvb.vb</DependentUpon>
     </Compile>
     <Compile Include="Client_Formvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeForm.Designer.vb">
+      <DependentUpon>EmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.vb">

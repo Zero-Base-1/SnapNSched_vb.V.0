@@ -7,8 +7,11 @@ Public Class Form1
 
     'To hide other buttons and textboxes if unnecessary
     Private Sub Login_Form_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Make the initial buttons visible
         SgnIn_bttn.Visible = True
         CrtAcc_bttn.Visible = True
+
+        ' Hide other elements initially
         Usr_lbl.Visible = False
         Usr_SN_txtbx.Visible = False
         Pswrd_lbl.Visible = False
@@ -18,7 +21,6 @@ Public Class Form1
         Clt_bttn.Visible = False
         Csr_bttn.Visible = False
         Adm_bttn.Visible = False
-        Csr_bttn.Visible = False
     End Sub
 
     'Proceeds to Who's gonna sign in
@@ -100,7 +102,6 @@ Public Class Form1
         Else
             MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
-
     End Sub
 
 End Class
